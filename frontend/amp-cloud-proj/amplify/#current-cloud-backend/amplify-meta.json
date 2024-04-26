@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ampcloudproj-dev-35464-authRole",
+      "UnauthRoleArn": "arn:aws:iam::634262946180:role/amplify-ampcloudproj-dev-35464-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::634262946180:role/amplify-ampcloudproj-dev-35464-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-ampcloudproj-dev-35464-deployment",
+      "UnauthRoleName": "amplify-ampcloudproj-dev-35464-unauthRole",
+      "StackName": "amplify-ampcloudproj-dev-35464",
+      "StackId": "arn:aws:cloudformation:us-east-2:634262946180:stack/amplify-ampcloudproj-dev-35464/d5399810-00ca-11ef-8870-0a6e8851782d",
+      "AmplifyAppId": "d3nl8zt4e90zq0"
+    }
+  },
+  "auth": {
+    "ampcloudprojc1a4be46": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-ampcloudproj-dev-35464-deployment/amplify-cfn-templates/auth/ampcloudprojc1a4be46-cloudformation-template.json",
+        "logicalId": "authampcloudprojc1a4be46"
+      },
+      "lastPushTimeStamp": "2024-04-23T13:47:27.146Z",
+      "output": {
+        "UserPoolId": "us-east-2_LjdwqTlUp",
+        "AppClientIDWeb": "1kkkd1mv8rh6qb7jpe0707psa7",
+        "AppClientID": "30rg2gmfgfooocna1391mklvfe",
+        "IdentityPoolId": "us-east-2:b3671e19-aa1c-4bc8-a600-204ec598fed8",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:634262946180:userpool/us-east-2_LjdwqTlUp",
+        "IdentityPoolName": "ampcloudprojc1a4be46_identitypool_c1a4be46__dev",
+        "UserPoolName": "ampcloudprojc1a4be46_userpool_c1a4be46"
+      },
+      "lastPushDirHash": "GQ6NhlP4/eftlS7ozRH6YFJy5vM="
+    }
+  }
+}
